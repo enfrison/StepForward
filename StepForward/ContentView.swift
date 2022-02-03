@@ -9,13 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        ZStack{
+            Color(.blue).edgesIgnoringSafeArea(.all)
+        Text("I'm doing it!")
             .padding()
     }
 }
-
+}
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
