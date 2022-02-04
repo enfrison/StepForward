@@ -6,13 +6,10 @@
 //
 
 import SwiftUI
+
 struct ContentView: View {
-    
-    @State private var greeting: String = "Goodmorning ,\n Ready to STEP FORWARD?"
-    
-    
     var body: some View {
-        Text(greeting)
+        Text("Hello, world!!!")
             .padding()
     }
 }
