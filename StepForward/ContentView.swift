@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-        
-        
-            .padding()
-    }
-}
+    @State private var auditoryaffirmations = false
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+        Form {
+            Section {
+                Toggle("Auditory Affirmations is Off", isOn: $auditoryaffirmations)
+            }
+
+            Section {
+                Button("Awaken") {
+                    print("Peace")
+                }
+                .disabled(auditoryaffirmations == false)
+            }
+        }
     }
 }
