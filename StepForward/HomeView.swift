@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    
+    @State private var greeting: String = "Goodmorning are you \n ready to STEP FORWARD?"
+    
+    
     var body: some View {
-        Text("Hello, world!!!")
+        Text(greeting)
+            .font(.largeTitle)
+            .fontWeight(.heavy)
+            .multilineTextAlignment(.center)
             .padding()
     }
 }

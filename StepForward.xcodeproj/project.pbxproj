@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4DFA827B160EB00874572 /* SettingsView.swift */; };
 		EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCB27AAC71E005F003A /* StepForwardApp.swift */; };
 		EACDACCE27AAC71E005F003A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCD27AAC71E005F003A /* HomeView.swift */; };
 		EACDACD027AAC720005F003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACCF27AAC720005F003A /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E4C4DFA827B160EB00874572 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EACDACC827AAC71E005F003A /* StepForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACDACCB27AAC71E005F003A /* StepForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepForwardApp.swift; sourceTree = "<group>"; };
 		EACDACCD27AAC71E005F003A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
 				EACDACD127AAC720005F003A /* Preview Content */,
+				E4C4DFA827B160EB00874572 /* SettingsView.swift */,
 			);
 			path = StepForward;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACDACCE27AAC71E005F003A /* HomeView.swift in Sources */,
+				E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */,
 				EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */,
 				EACDACDA27AD75FE005F003A /* NavigationBar.swift in Sources */,
 			);
