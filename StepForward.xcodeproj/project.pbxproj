@@ -12,6 +12,7 @@
 		EACDACD027AAC720005F003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACCF27AAC720005F003A /* Assets.xcassets */; };
 		EACDACD327AAC720005F003A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACD227AAC720005F003A /* Preview Assets.xcassets */; };
 		EACDACDA27AD75FE005F003A /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACD927AD75FD005F003A /* NavigationBar.swift */; };
+		EACDACE027B2247D005F003A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACDF27B2247D005F003A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		EACDACCF27AAC720005F003A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACDACD227AAC720005F003A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EACDACD927AD75FD005F003A /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		EACDACDF27B2247D005F003A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				EACDACCB27AAC71E005F003A /* StepForwardApp.swift */,
 				EACDACCD27AAC71E005F003A /* ContentView.swift */,
+				EACDACDF27B2247D005F003A /* MainView.swift */,
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
 				EACDACD127AAC720005F003A /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EACDACCE27AAC71E005F003A /* ContentView.swift in Sources */,
+				EACDACE027B2247D005F003A /* MainView.swift in Sources */,
 				EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */,
 				EACDACDA27AD75FE005F003A /* NavigationBar.swift in Sources */,
 			);
