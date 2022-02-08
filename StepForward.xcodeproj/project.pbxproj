@@ -59,8 +59,8 @@
 				EACDACCD27AAC71E005F003A /* HomeView.swift */,
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
-				EACDACD127AAC720005F003A /* Preview Content */,
 				E4C4DFA827B160EB00874572 /* SettingsView.swift */,
+				EACDACD127AAC720005F003A /* Preview Content */,
 			);
 			path = StepForward;
 			sourceTree = "<group>";
