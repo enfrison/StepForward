@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4DFA827B160EB00874572 /* SettingsView.swift */; };
+
+		97177D2727B16F2B00CF18C3 /* settingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97177D2627B16F2B00CF18C3 /* settingsView.swift */; };
+		97177D2927B16F6500CF18C3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97177D2827B16F6500CF18C3 /* ProfileView.swift */; };
+ AffirmationTextBox
 		EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCB27AAC71E005F003A /* StepForwardApp.swift */; };
 		EACDACCE27AAC71E005F003A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCD27AAC71E005F003A /* HomeView.swift */; };
 		EACDACD027AAC720005F003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACCF27AAC720005F003A /* Assets.xcassets */; };
@@ -16,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4C4DFA827B160EB00874572 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+
+		97177D2627B16F2B00CF18C3 /* settingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsView.swift; sourceTree = "<group>"; };
+		97177D2827B16F6500CF18C3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+ AffirmationTextBox
 		EACDACC827AAC71E005F003A /* StepForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACDACCB27AAC71E005F003A /* StepForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepForwardApp.swift; sourceTree = "<group>"; };
 		EACDACCD27AAC71E005F003A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -59,9 +65,14 @@
 				EACDACCD27AAC71E005F003A /* HomeView.swift */,
 
 				EACDACCD27AAC71E005F003A /* ContentView.swift */,
+
 				EACDACDF27B2247D005F003A /* MainView.swift */,
  TabView
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
+
+				97177D2627B16F2B00CF18C3 /* settingsView.swift */,
+				97177D2827B16F6500CF18C3 /* ProfileView.swift */,
+ AffirmationTextBox
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
 				E4C4DFA827B160EB00874572 /* SettingsView.swift */,
 				EACDACD127AAC720005F003A /* Preview Content */,
@@ -147,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EACDACCE27AAC71E005F003A /* HomeView.swift in Sources */,
-				E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */,
+
+				97177D2927B16F6500CF18C3 /* ProfileView.swift in Sources */,
+				97177D2727B16F2B00CF18C3 /* settingsView.swift in Sources */,
+ AffirmationTextBox
 				EACDACCE27AAC71E005F003A /* ContentView.swift in Sources */,
 				EACDACE027B2247D005F003A /* MainView.swift in Sources */,
                  TabView
