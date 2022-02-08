@@ -1,51 +1,20 @@
 //
-//  SettingsView.swift
+//  settingsView.swift
 //  StepForward
 //
-//  Created by Leteef Wyatt on 2/7/22.
+//  Created by Ivé Hunter on 2/7/22.
 //
 
 import SwiftUI
 
-import AVFoundation
-
-
-
-
-
-
-
-
-
-
-
-struct SettingsView: View {
-    
-    
-    
-    
-    
-    
+struct settingsView: View {
     var body: some View {
-        ZStack{ Color("blue").ignoresSafeArea()
-            VStack{
-                RoundedRectangle(cornerRadius: 38)
-                    .foregroundColor(Color("darker blue"))
-                    .frame(width: 365, height: 582).position(x: 195, y: 550)
-                
-            }
-        Text("Settings")
-            .font(.largeTitle)
-            .position(.init(x: 195, y: 50))
-        
-            
-            
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct SettingsView_Previews: PreviewProvider {
+struct settingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
+        settingsView()
     }
-}
 }
