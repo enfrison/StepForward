@@ -57,6 +57,10 @@
 			children = (
 				EACDACCB27AAC71E005F003A /* StepForwardApp.swift */,
 				EACDACCD27AAC71E005F003A /* HomeView.swift */,
+
+				EACDACCD27AAC71E005F003A /* ContentView.swift */,
+				EACDACDF27B2247D005F003A /* MainView.swift */,
+ TabView
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
 				E4C4DFA827B160EB00874572 /* SettingsView.swift */,
@@ -145,6 +149,9 @@
 			files = (
 				EACDACCE27AAC71E005F003A /* HomeView.swift in Sources */,
 				E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */,
+				EACDACCE27AAC71E005F003A /* ContentView.swift in Sources */,
+				EACDACE027B2247D005F003A /* MainView.swift in Sources */,
+                 TabView
 				EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */,
 				EACDACDA27AD75FE005F003A /* NavigationBar.swift in Sources */,
 			);

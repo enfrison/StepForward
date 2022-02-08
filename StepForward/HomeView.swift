@@ -18,8 +18,9 @@ struct ContentView: View {
             .font(.largeTitle)
             .fontWeight(.heavy)
             .multilineTextAlignment(.center)
-            .padding()
-    }
+
+        }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
