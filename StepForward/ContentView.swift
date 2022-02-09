@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{
-            Color(.blue).edgesIgnoringSafeArea(.all)
-        Text("I'm doing it!")
+            Color("Blue"
+            ).ignoresSafeArea()
+            Text("I'm doing it!")
+            VStack{
+                RoundedRectangle(cornerRadius: 38).foregroundColor(Color("Dark Blue")
+                                                                    .frame(width: 365, height: 582).position(x:195, y: 550) as? Color)
+            }
             .padding()
-    }
+    
+        }
 }
 }
 struct ContentView_Previews: PreviewProvider {
