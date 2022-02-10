@@ -25,7 +25,7 @@ struct ContentView:  View {
         .padding()
         .frame(width:nil)
         .foregroundColor(.white)
-        .background(Color.teal)
+        .background(Color.red)
         .cornerRadius(20)
         
     
