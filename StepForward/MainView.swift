@@ -10,7 +10,9 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         VStack{
-            NavigationBar(title: "Home")
+            NavigationBar(title: "Home").frame(width: 350, height: 70)
+                
+            
         
             
             TabView{
@@ -19,7 +21,12 @@ struct MainView: View {
                         Label("Home", systemImage: "house")
                         
                 }
+                ProfilePage()
+                    .tabItem{
+                        Label("Profile", systemImage: "person")
+                    }
             }
+            
         }
     }
 }
