@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ProfilePage: View {
     var body: some View {
+        NavigationView{
+            ScrollView{
         VStack{
             ProfilePicture()
                 .padding()
@@ -20,6 +22,9 @@ struct ProfilePage: View {
                     .position(x: 50, y: 30)
             }
         }
+            }.navigationTitle("Profile")
+                .navigationBarTitleDisplayMode(.inline)
+    }
     }
 }
 

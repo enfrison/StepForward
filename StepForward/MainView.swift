@@ -9,27 +9,40 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack{
-            NavigationBar(title: "Home").frame(width: 350, height: 70)
-                
-            
-        
+      
+
+
             
             TabView{
+           
                 ContentView()
-                    .tabItem {
+                    .tabItem
+                    {
                         Label("Home", systemImage: "house")
                         
-                }
+                        
+                    }
+                
                 ProfilePage()
                     .tabItem{
                         Label("Profile", systemImage: "person")
                     }
+                JournalView()
+                    .tabItem{
+                        Label("Journal", systemImage: "book")
+                        
+                    }
+                ResourcesView()
+                    .tabItem{
+                        Label("Resources", systemImage: "hand.raised")
+                    }
             }
             
         }
-    }
-}
+        }
+        
+
+
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
