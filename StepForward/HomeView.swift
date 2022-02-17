@@ -9,6 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var body: some View {
+        Button(action: {
+            print("Delete tapped!")
+        }) {
+            HStack {
+                Image(systemName:"trash")
+                    .font(.title)
+                Text("Delete")
+                .fontWeight(.semibold)
+                .font(.title)
+            }
+                .padding()
+                .foregroundColor(.white)
+                .background(Color.red)
+                .cornerRadius(40)
+            
+        }
+        
+    }
     
     @State private var greeting: String = "Goodmorning are you \n ready to STEP FORWARD?"
     
@@ -22,8 +41,10 @@ struct ContentView: View {
     }
 }
 
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().preferredColorScheme(.dark)
     }
 }

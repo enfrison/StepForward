@@ -32,3 +32,5 @@ struct NavigationBar_Previews: PreviewProvider {
         NavigationBar(title: "Home")
     }
 }
+
+
