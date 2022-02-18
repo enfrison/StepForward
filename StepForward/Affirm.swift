@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+// Affirm.swift
 //  StepForward
 //
 //  Created by Erika Frison on 2/2/22.
