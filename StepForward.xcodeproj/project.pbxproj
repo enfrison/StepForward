@@ -14,7 +14,7 @@
 		EA8F787427BD670100F88D27 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F787327BD670100F88D27 /* JournalView.swift */; };
 		EA8F787627BD67A300F88D27 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F787527BD67A300F88D27 /* ResourcesView.swift */; };
 		EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCB27AAC71E005F003A /* StepForwardApp.swift */; };
-		EACDACCE27AAC71E005F003A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCD27AAC71E005F003A /* ContentView.swift */; };
+		EACDACCE27AAC71E005F003A /* Affirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCD27AAC71E005F003A /* Affirm.swift */; };
 		EACDACD027AAC720005F003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACCF27AAC720005F003A /* Assets.xcassets */; };
 		EACDACD327AAC720005F003A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACD227AAC720005F003A /* Preview Assets.xcassets */; };
 		EACDACE027B2247D005F003A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACDF27B2247D005F003A /* MainView.swift */; };
@@ -29,7 +29,7 @@
 		EA8F787527BD67A300F88D27 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
 		EACDACC827AAC71E005F003A /* StepForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACDACCB27AAC71E005F003A /* StepForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepForwardApp.swift; sourceTree = "<group>"; };
-		EACDACCD27AAC71E005F003A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EACDACCD27AAC71E005F003A /* Affirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirm.swift; sourceTree = "<group>"; };
 		EACDACCF27AAC720005F003A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACDACD227AAC720005F003A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EACDACDF27B2247D005F003A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				EACDACCB27AAC71E005F003A /* StepForwardApp.swift */,
-				EACDACCD27AAC71E005F003A /* ContentView.swift */,
+				EACDACCD27AAC71E005F003A /* Affirm.swift */,
 				EACDACDF27B2247D005F003A /* MainView.swift */,
 				EA8F787327BD670100F88D27 /* JournalView.swift */,
 				EA8F787527BD67A300F88D27 /* ResourcesView.swift */,
@@ -167,7 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1D484927B6B5BF00CB18D2 /* ProfileImageMod.swift in Sources */,
-				EACDACCE27AAC71E005F003A /* ContentView.swift in Sources */,
+				EACDACCE27AAC71E005F003A /* Affirm.swift in Sources */,
 				EA1D484B27B6BACC00CB18D2 /* ProfilePage.swift in Sources */,
 				EACDACE027B2247D005F003A /* MainView.swift in Sources */,
 				EA8F787627BD67A300F88D27 /* ResourcesView.swift in Sources */,
