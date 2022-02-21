@@ -16,13 +16,14 @@ struct JournaldeletebuttonView: View {
             VStack {
                 Image("NEW LOGO")
                     .resizable()
-                    .frame(width:  92.00, height: 92.0)
+                    .frame(width:  160.00, height: 160.00)
+
                 Spacer()
                 
                 Button(action:   {
                     
                 })  {
-                    Text("save")
+                    Text("Save Journal")
                     
                         .fontWeight(.medium)
                         .font(.largeTitle)
