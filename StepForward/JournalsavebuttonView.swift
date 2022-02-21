@@ -12,24 +12,27 @@ struct JournalsavebuttonView: View {
     var body: some View {
         ZStack {
             Color("Light blue")
-                .edgesIgnoringSafeArea(.all)
+               
     
             VStack {
-                Image("NEW LOGO")
-                    .resizable()
-                    .frame(width:  160.00, height: 160.00)
-
+            Image("NEW LOGO")
+            .resizable()
+            .frame(width: 190.00,
+                   height: 190.00)
+                       
+                    .padding(.all,47.0)
                 Spacer()
                 
                 Button(action:   {
                     
                 })  {
-                    Text("Save Journal")
+                    Text("Save My Journal")
                     
                         .fontWeight(.medium)
                         .font(.largeTitle)
                         .multilineTextAlignment(.trailing)
-                        .padding(.all, -10.0)
+                        .padding([.top, .leading, .trailing], -10.0)
+                        .frame(height: nil)
                   
                 }
                 
