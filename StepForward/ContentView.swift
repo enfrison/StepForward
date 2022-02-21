@@ -51,12 +51,22 @@ struct ContentView: View {
             
           
                 ScrollView{
-                Text(Affirmation)
-                    .padding()
+                    
+                    Text(Affirmation)
+                        .font(.title)
+                        .multilineTextAlignment(.center)
+                        .padding(.vertical, 50.0)
+                        .padding(.horizontal)
+
              
                 }.navigationTitle("Home")
-                .background()
+                .background{
+                    Rectangle()
+                (Color("Blue"))
+                }
+            
             }
+      
         
         }
     }

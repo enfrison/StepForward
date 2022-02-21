@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct JournalView: View {
-    @State var text: String = ""
+    @State var text: String = "Type Here"
     init() {
         UITextView.appearance().backgroundColor = UIColor(Color("Dark Blue"))
         UITextView.appearance().textColor = UIColor.white
@@ -33,7 +33,8 @@ struct JournalView: View {
             }
             .background{
                 Rectangle()
-                    .foregroundColor(Color("Blue"))
+//                    .foregroundColor
+                    (Color("Blue"))
             }
             .navigationTitle("Journal")
             .navigationBarTitleDisplayMode(.inline)

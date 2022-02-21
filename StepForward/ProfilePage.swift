@@ -24,7 +24,13 @@ struct ProfilePage: View {
         }
             }.navigationTitle("Profile")
                 .navigationBarTitleDisplayMode(.inline)
+                .background{
+                    Rectangle()
+                
+            (Color("Blue"))
+                }
     }
+        
     }
 }
 
