@@ -51,6 +51,16 @@ struct ContentView: View {
             
           
                 ScrollView{
+                    Image("Logo")
+                            .resizable()
+                            .cornerRadius(20)
+                                    .overlay(RoundedRectangle(cornerRadius: 20)
+                                        .stroke(Color.white, lineWidth: 4))
+                                    .shadow(radius: 10)
+                                    .padding(.all)
+                                    .scaledToFit()
+                                    .frame(width: 190.00,
+                                    height: 190.00)
                     
                     Text(Affirmation)
                         .font(.title)
