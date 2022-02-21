@@ -13,7 +13,9 @@ struct NavigationBar: View {
         
         
         ZStack{
+        
             Color.clear
+            
                 .background(.ultraThinMaterial)
                 .blur(radius: 10)
             Text(title)

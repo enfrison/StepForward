@@ -11,7 +11,10 @@ import SwiftUI
 struct StepForwardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JournaldeletebuttonView()
+            
+            
+            
         }
     }
 }

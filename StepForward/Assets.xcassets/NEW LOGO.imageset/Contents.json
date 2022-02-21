@@ -1,16 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Step Forward Logo .png",
+      "filename" : "REVISED LOGO.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Step Forward Logo.png",
+      "filename" : " LOGO DARK.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "NEW LOGO.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
