@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A38B1C227BD486B00E9DEE4 /* JournaldeletebuttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38B1C127BD486B00E9DEE4 /* JournaldeletebuttonView.swift */; };
+		6A38B1C227BD486B00E9DEE4 /* JournalsavebuttonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A38B1C127BD486B00E9DEE4 /* JournalsavebuttonView.swift */; };
 		E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4DFA827B160EB00874572 /* SettingsView.swift */; };
 		EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACDACCB27AAC71E005F003A /* StepForwardApp.swift */; };
 		EACDACD027AAC720005F003A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACCF27AAC720005F003A /* Assets.xcassets */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A38B1C127BD486B00E9DEE4 /* JournaldeletebuttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournaldeletebuttonView.swift; sourceTree = "<group>"; };
+		6A38B1C127BD486B00E9DEE4 /* JournalsavebuttonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalsavebuttonView.swift; sourceTree = "<group>"; };
 		E4C4DFA827B160EB00874572 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EACDACC827AAC71E005F003A /* StepForward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepForward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACDACCB27AAC71E005F003A /* StepForwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepForwardApp.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			children = (
 				EACDACCB27AAC71E005F003A /* StepForwardApp.swift */,
 				EACDACD927AD75FD005F003A /* NavigationBar.swift */,
-				6A38B1C127BD486B00E9DEE4 /* JournaldeletebuttonView.swift */,
+				6A38B1C127BD486B00E9DEE4 /* JournalsavebuttonView.swift */,
 				EACDACCF27AAC720005F003A /* Assets.xcassets */,
 				E4C4DFA827B160EB00874572 /* SettingsView.swift */,
 				EACDACD127AAC720005F003A /* Preview Content */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C4DFA927B160EC00874572 /* SettingsView.swift in Sources */,
-				6A38B1C227BD486B00E9DEE4 /* JournaldeletebuttonView.swift in Sources */,
+				6A38B1C227BD486B00E9DEE4 /* JournalsavebuttonView.swift in Sources */,
 				EACDACCC27AAC71E005F003A /* StepForwardApp.swift in Sources */,
 				EACDACDA27AD75FE005F003A /* NavigationBar.swift in Sources */,
 			);

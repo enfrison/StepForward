@@ -1,4 +1,4 @@
-/Users/emelineking/Desktop/StepForward/StepForward.xcodeproj
+///Users/emelineking/Desktop/StepForward/StepForward.xcodeproj
 //
 //  JournaldeletebuttonView.swift
 //  StepForward
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct JournaldeletebuttonView: View {
+struct JournalsavebuttonView: View {
     var body: some View {
         ZStack {
             Color("Light blue")
@@ -51,7 +51,7 @@ struct JournaldeletebuttonView: View {
 
 struct JournaldeletebuttonView_Previews: PreviewProvider {
     static var previews: some View {
-        JournaldeletebuttonView()
+        JournalsavebuttonView()
             .frame(height: nil)
     }
 }

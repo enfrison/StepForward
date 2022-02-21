@@ -87,8 +87,8 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "90D27A42-FA83-4A81-8A87-47A306A2F798"
-            shouldBeEnabled = "No"
+            uuid = "BF4802C9-CA79-4F49-8FAE-014458F29DB6"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "StepForward/JournaldeletebuttonView.swift"

@@ -11,7 +11,7 @@ import SwiftUI
 struct StepForwardApp: App {
     var body: some Scene {
         WindowGroup {
-            JournaldeletebuttonView()
+            JournalsavebuttonView()
             
             
             
