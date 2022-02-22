@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ResourcesView: View {
+    var phoneNumber = "911"
+
     var body: some View {
         
         NavigationView {
@@ -29,31 +31,50 @@ struct ResourcesView: View {
 //                            .scaledToFit()
                          
                         VStack{
-                            Text("Resources")
+                            Text("Links")
                                 .font(.largeTitle)
-                                .fontWeight(.heavy)
+                                .fontWeight(.regular)
                                 .padding(.vertical, 25.0)
-                            Text("Emergency 911")
-                                .font(.title)
-                                .multilineTextAlignment(.trailing)
-                                .padding(.horizontal)
-                            Text("Anxiety and Depression Support Groups")
-                                .font(.title)
+                                .foregroundColor(.black)
+                            Button(action: {
+                                           let phone = "tel://"
+                                           let phoneNumberformatted = phone + phoneNumber
+                                           guard let url = URL(string: phoneNumberformatted) else { return }
+                                           UIApplication.shared.open(url)
+                                          }) {
+                                              Text(phoneNumber)
+                                                  .font(.title)
+                                                  .foregroundColor(.red)
+                                          }
+//                            Text("Emergency 911")
+//                                .font(.title)
 //                                .multilineTextAlignment(.trailing)
-                            Text("Psychiatric Helpline SAMHSA's National Helpline 1-800-662-HELP(4357)")
-                                .font(.title)
-                            Text("Meditation Detroit Zen Center (313)366-7738")
-                                .font(.title)
-                            Text("Therapist Thrive Therapy Group (586-828-1221)")
-                                .font(.title)
+//                                .padding(.horizontal)
+//                            Text("Anxiety and Depression Support Groups")
+//                                .font(.title)
+                            Link("Behavioral Health", destination: URL(string: "https://www.michigan.gov/mdhhs/0,5885,7-339-71550_2941_4868_4899_71152-348068--,00.html")!)
+                                .font(.largeTitle)
+                                .foregroundColor(.orange) .multilineTextAlignment(.trailing)
+                            Link("Crisis Helpline", destination: URL(string: "https://www.samhsa.gov/find-help/national-helpline")!)
+                                .font(.largeTitle)
+                                .foregroundColor(.orange)
+                            Link("Meditation", destination: URL(string: "https://www.detroitzencenter.org")!)
+                                .font(.largeTitle)
+                                .foregroundColor(.orange)
+
+                            Link("Therapist", destination: URL(string: "http://www.thrivetherapygroup.com")!)
+                                .font(.largeTitle)
+                                .foregroundColor(.orange)
                         }
-                        .padding(.bottom, 150.0)
+                        .background(RoundedRectangle(cornerRadius: 10).stroke())
+                        .background(Color("Dark Blue"))
+                        .foregroundColor(.white)
+                        .padding()
                     }
+                   
                 }
             
-//            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-//                    .padding(.vertical)
-//                    .padding(.horizontal, 200.0)
+              
             }
                 .navigationTitle("Resources")
                 .navigationBarTitleDisplayMode(.inline)
@@ -62,6 +83,7 @@ struct ResourcesView: View {
                     Rectangle()
                         (Color("Blue"))
                 }
+                
             
             
         }
@@ -69,8 +91,8 @@ struct ResourcesView: View {
 }
 
 
-struct ResourcesView_Previews: PreviewProvider {
-    static var previews: some View {
-        ResourcesView()
-    }
-}
+//struct ResourcesView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ResourcesView()
+//    }
+//}

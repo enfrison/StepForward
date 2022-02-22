@@ -27,13 +27,13 @@ struct ProfilePicture: View {
             } else {
                 Image(systemName: "camera.circle")
                     .profileImageMod()
-                    .foregroundColor(.yellow)
+                    .foregroundColor(.white)
             }
             })
             Image(systemName: "plus")
                 .frame(width: 30, height: 30)
                 .foregroundColor(.white)
-                .background(Color.blue)
+                .background(Color.black)
                 .clipShape(Circle())
         }.sheet(isPresented: $openCameraRoll) {
             ImagePicker(selectedImage: $imageSelected, sourceType: .photoLibrary)

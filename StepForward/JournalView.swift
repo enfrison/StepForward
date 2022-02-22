@@ -23,13 +23,11 @@ struct JournalView: View {
                             .overlay(RoundedRectangle(cornerRadius: 20)
                                 .stroke(Color.white, lineWidth: 4))
                             .shadow(radius: 10)
+                            .padding(.all)
                             .scaledToFit()
                             .frame(width: 190.00,
                             height: 190.00)
-//                    .resizable()
-//                    .scaledToFit()
-//                    .frame(height: 150)
-//                    .padding()
+//
                 
 
                         
