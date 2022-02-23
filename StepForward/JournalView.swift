@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct JournalView: View {
-    @State var text: String = ""
+    @State var text: String = "Type Here"
     init() {
         UITextView.appearance().backgroundColor = UIColor(Color("Dark Blue"))
         UITextView.appearance().textColor = UIColor.white
@@ -17,11 +17,19 @@ struct JournalView: View {
         NavigationView{
            
             ScrollView {
-                Image(systemName: "person")
+                Image("Logo")
                     .resizable()
-                    .scaledToFit()
-                    .frame(height: 150)
-                    .padding()
+                    .cornerRadius(20)
+                            .overlay(RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.white, lineWidth: 4))
+                            .shadow(radius: 10)
+                            .scaledToFit()
+                            .frame(width: 190.00,
+                            height: 190.00)
+//                    .resizable()
+//                    .scaledToFit()
+//                    .frame(height: 150)
+//                    .padding()
                 
 
                         
@@ -33,7 +41,8 @@ struct JournalView: View {
             }
             .background{
                 Rectangle()
-                    .foregroundColor(Color("Blue"))
+//                    .foregroundColor
+                    (Color("Blue"))
             }
             .navigationTitle("Journal")
             .navigationBarTitleDisplayMode(.inline)
